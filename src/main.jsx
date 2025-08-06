@@ -6,7 +6,7 @@ import { AuthProvider } from "./context/AuthContext"; // adjust path
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/CollabCodeFrontEnd">
             <App />
         </BrowserRouter>
     </React.StrictMode>
