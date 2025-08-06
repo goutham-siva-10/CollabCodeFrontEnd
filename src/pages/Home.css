@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px; /* Increased width */
+  margin: auto;
+  background: #fff;
+  padding: 4rem; /* More padding */
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  color: #222;
+  margin-bottom: 1.5rem;
+  font-size: 36px; /* Enlarged font */
+}
+
+input[type="text"] {
+  padding: 18px; /* More padding */
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 20px; /* Larger font */
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 16px 24px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.document-list {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.document-item {
+  padding: 18px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 20px;
+}
+
+.document-item:hover {
+  background-color: #e9e9e9;
+}
+
+.delete-button {
+  background-color: crimson;
+  color: white;
+  padding: 10px 18px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+.zoom-container {
+  min-height: 100vh;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Top-aligned */
+  align-items: flex-start;
+}
